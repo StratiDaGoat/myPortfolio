@@ -1,0 +1,11 @@
+Personal Portfolio
+--Requiremenets--
+-Landing Page / Home
+-About 
+-Projects
+	-Mobile Responsive
+	-host - vercel, AWS, GCP (whatever one is more appealing)
+-links (like tiktok linktree for creators)
+
+DOMAINS
+porkbun.com (for own custom domain for example: strati.com
