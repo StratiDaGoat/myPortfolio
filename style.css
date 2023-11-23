@@ -54,6 +54,22 @@ nav a.active{
     color: rgb(2, 194, 207);
 }
 
+@media (max-width: 768px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+
+    nav a {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+}
+
 section{
     min-height: 100vh;
     display: flex;
@@ -64,6 +80,12 @@ section{
 
 section:nth-child(odd){
     background: #323946;
+}
+
+@media (max-width: 768px){
+    section {
+        padding: 40px 0;
+    }
 }
 
 /* Navbar End */
@@ -131,6 +153,38 @@ section:nth-child(odd){
 .btn:hover{
     background: var(--main-color);
     transform: translateY(3px);
+}
+
+@media (max-width: 768px) {
+
+    .home{
+        width: 375px;
+    }
+
+
+    .home-text h1{
+        font-size: 2.5rem;
+    }
+
+    .home-text span{
+        padding: 5px 25px;
+        background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
+        box-shadow: 0px 20px 40px #00000070;
+        border: 1px solid #3b3b3b;
+        border-radius: 100px;
+        color: var(--text-color);
+        font-weight: 700;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .home-text p {
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: 16px;
+    }
 }
 
 
